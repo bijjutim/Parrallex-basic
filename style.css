@@ -29,6 +29,7 @@ body {
 .hero > div {
   position: absolute;
   background: rgba(128, 128, 128, 0.192);
+  color: white;
   left: 10vw;
   top: 30vh;
   width: 450px;
@@ -90,4 +91,63 @@ nav ul li:hover {
     left: 50%;
     bottom: 5px;
   }
+}
+
+/* paraagraph */
+
+section.container {
+  padding: 3rem 0;
+}
+
+/* =======images */
+/* .img1,
+.img2,
+.img3  */
+[class^="img"] {
+  background: red;
+  height: 50vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img1 {
+  background: red url(./asset/AdobeStock_14.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.img2 {
+  background: url(./asset/data.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.img3 {
+  background: url(./asset/thebijay.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.img4 {
+  background: url(./asset/wp4628356.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.title {
+  background: rgba(0, 0, 0, 0.445);
+  color: white;
+  font-size: 2rem;
+  padding: 1.4rem 5rem;
+  border-radius: 10px;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+
+  padding: 2rem;
+  margin-top: 3rem;
 }
